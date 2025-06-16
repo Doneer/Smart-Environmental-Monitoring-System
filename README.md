@@ -104,7 +104,7 @@ The Smart Environmental Monitoring System is an advanced Arduino-based embedded 
    ```
 3. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/smart-environmental-monitor.git
+   git clone https://github.com/Doneer/Smart-Environmental-Monitoring-System.git
    ```
 4. Open `Smart_Env_Monitor_V5.ino` in Arduino IDE
 5. Upload to your Arduino board

@@ -217,19 +217,19 @@ Date,Time,T,H,L,A
 The system demonstrates professional embedded programming with direct register manipulation:
 
 ```cpp
-// Custom UART implementation
+//Custom UART implementation
 void initUART() {
-    UBRR0H = 0; UBRR0L = 103;        // 9600 baud calculation
-    UCSR0B = (1 << TXEN0);           // Enable transmitter
-    UCSR0C = (3 << UCSZ00);          // 8N1 format
+    UBRR0H = 0; UBRR0L = 103;        //9600 baud calculation
+    UCSR0B = (1 << TXEN0);           //Enable transmitter
+    UCSR0C = (3 << UCSZ00);          //8N1 format
 }
 
-// Timer interrupt configuration
+//Timer interrupt configuration
 void setupInterrupts() {
-    TCCR2A = (1 << WGM21);           // CTC mode
-    TCCR2B = (7 << CS20);            // 1024 prescaler
-    OCR2A = 155;                     // Compare value
-    TIMSK2 = (1 << OCIE2A);          // Enable interrupt
+    TCCR2A = (1 << WGM21);           //CTC mode
+    TCCR2B = (7 << CS20);            //1024 prescaler
+    OCR2A = 155;                     //Compare value
+    TIMSK2 = (1 << OCIE2A);          //Enable interrupt
 }
 ```
 
@@ -319,4 +319,4 @@ For technical support or questions about this project:
 
 **⭐ If you find this project useful, please consider giving it a star!**
 
-**🔗 Related Projects**: [Arduino Environmental Monitoring](https://github.com/topics/arduino-environmental-monitoring) | [Embedded Systems](https://github.com/topics/embedded-systems) | [IoT Sensors](https://github.com/topics/iot-sensors)
+**🔗 Related Projects**: [Arduino Environmental Monitoring](https://github.com/topics/arduino-weather-station) | [Embedded Systems](https://github.com/topics/embedded-systems) | [IoT Sensors](https://github.com/topics/iot-sensors)

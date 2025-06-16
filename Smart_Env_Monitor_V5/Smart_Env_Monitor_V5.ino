@@ -178,8 +178,6 @@ void loop() {
   if (isInSleepMode) {
     return;
   }
-
-  rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
   
   //Read sensors (every 2 seconds)
   if (millis() - lastReadTime > 2000) {

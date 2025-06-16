@@ -319,4 +319,4 @@ For technical support or questions about this project:
 
 **⭐ If you find this project useful, please consider giving it a star!**
 
-**🔗 Related Projects**: [Arduino Environmental Monitoring](https://github.com/topics/arduino-weather-station) | [Embedded Systems](https://github.com/topics/embedded-systems) | [IoT Sensors](https://github.com/topics/iot-sensors)
+**🔗 Related Projects**: [Arduino Weather Station](https://github.com/topics/arduino-weather-station) | [Embedded Systems](https://github.com/topics/embedded-systems) | [IoT Sensors](https://github.com/topics/iot-sensors)
